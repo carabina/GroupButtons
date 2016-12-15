@@ -1,0 +1,16 @@
+PODS:
+  - GroupButtons (0.1.0)
+
+DEPENDENCIES:
+  - GroupButtons (from `../`)
+
+EXTERNAL SOURCES:
+  GroupButtons:
+    :path: ../
+
+SPEC CHECKSUMS:
+  GroupButtons: 57e084ca0d5c8b63ff4ec015f88cea6cb9436cc1
+
+PODFILE CHECKSUM: f0fe7df234c407380b7bba9df3ac3c4e048654af
+
+COCOAPODS: 1.2.0.beta.1

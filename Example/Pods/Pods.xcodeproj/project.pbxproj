@@ -1,0 +1,715 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		239843E678324E00D703EC09CA4DD057 /* GroupButtons-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 735AD176E88DB1DD2F79B8F326BF0215 /* GroupButtons-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55018E74015B8FA2E0DC2A90D9737F2F /* Pods-GroupButtons_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F024552DE75B531F276E19B735CEFBA2 /* Pods-GroupButtons_Tests-dummy.m */; };
+		5A5C131A3645B5DD51EC7D2C66857D96 /* Pods-GroupButtons_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05C3C19E53EEF8AF461C3872753DEBDD /* Pods-GroupButtons_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		832B00144CC445FC487493B3C504A652 /* Pods-GroupButtons_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F056580F578A015555BA9E849BEE0AB9 /* Pods-GroupButtons_Example-dummy.m */; };
+		91D96E26433ED094B2D8DDD71CAAED4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		97967C9FEC59BB3689834DF37C460495 /* GroupButtons-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0449C6ADBCBD144499F5A959A37B66 /* GroupButtons-dummy.m */; };
+		BB05436A9B012B774E75B669F0EE3EAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		C5588C321DE8E49663C516B2079B7784 /* Pods-GroupButtons_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CB5705B9F5B1F02415DA033AE4896B4 /* Pods-GroupButtons_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D79A21EE8426269F224526032991EFBE /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AD120239F70D97CF84D595EA99010C /* ReplaceMe.swift */; };
+		D7DA84222057A9393384ABB80B065D77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC9B59DA1FB5D7AC822F795C2628A174 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46A760617315B09ED52F399AF2DBDCDB;
+			remoteInfo = GroupButtons;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05C3C19E53EEF8AF461C3872753DEBDD /* Pods-GroupButtons_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GroupButtons_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1079BF9F634F2CE895E54FB628D65837 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12F67D116558E6A22DC60BDDF7A4A681 /* Pods-GroupButtons_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GroupButtons_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		16905D85FB16CC780BF3DFE49FD56763 /* GroupButtons.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = GroupButtons.modulemap; sourceTree = "<group>"; };
+		1C6ED8E8B17086157C30304F320072AA /* Pods-GroupButtons_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GroupButtons_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		203A9B82C47A752D7ADC54313ED74544 /* Pods-GroupButtons_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GroupButtons_Tests.modulemap"; sourceTree = "<group>"; };
+		25C25B8D21A21E5637D33DBD1975C386 /* Pods-GroupButtons_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GroupButtons_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		295151526E3520A3C55FF8AE331249B2 /* Pods-GroupButtons_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GroupButtons_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2B41497433179D452B244B6705819F4D /* Pods-GroupButtons_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GroupButtons_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2CB5705B9F5B1F02415DA033AE4896B4 /* Pods-GroupButtons_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GroupButtons_Example-umbrella.h"; sourceTree = "<group>"; };
+		2F8A97009D2A80EAD872A61A6676D2FD /* GroupButtons.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GroupButtons.xcconfig; sourceTree = "<group>"; };
+		3F7B1C1FE7483B28DD202D538A07D6B4 /* Pods-GroupButtons_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GroupButtons_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		59B28523C47EF79B0A212DE5C1072AE1 /* Pods-GroupButtons_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GroupButtons_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5AFFDE32B72F7151FFF0339647CD247A /* Pods-GroupButtons_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GroupButtons_Example.modulemap"; sourceTree = "<group>"; };
+		65AD120239F70D97CF84D595EA99010C /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		6B53CBAD3EC6B9B734F8C130A6BECAAF /* Pods-GroupButtons_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GroupButtons_Tests-resources.sh"; sourceTree = "<group>"; };
+		735AD176E88DB1DD2F79B8F326BF0215 /* GroupButtons-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GroupButtons-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1AF970397B972ECC755B5B6D916E0CD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB53FC612F5EA408381BB061B80A89E2 /* Pods-GroupButtons_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GroupButtons_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AF0449C6ADBCBD144499F5A959A37B66 /* GroupButtons-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GroupButtons-dummy.m"; sourceTree = "<group>"; };
+		AF65242A3DEC0C5239D891D9DBF442FF /* GroupButtons-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GroupButtons-prefix.pch"; sourceTree = "<group>"; };
+		AFB668F7EF6E8195636E773F0B1ECFED /* Pods-GroupButtons_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GroupButtons_Example-resources.sh"; sourceTree = "<group>"; };
+		B05D903E7A8A6B6A9E88311661F84BF8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CC3EA215A6A7D5CE9300AE7D8CB0F324 /* GroupButtons.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GroupButtons.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECC3944E7CC314ABEA44D2EF34AF7C3 /* Pods-GroupButtons_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GroupButtons_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D9FBDB7E334455EEC99CFD74481A9D3F /* Pods_GroupButtons_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GroupButtons_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F024552DE75B531F276E19B735CEFBA2 /* Pods-GroupButtons_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GroupButtons_Tests-dummy.m"; sourceTree = "<group>"; };
+		F056580F578A015555BA9E849BEE0AB9 /* Pods-GroupButtons_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GroupButtons_Example-dummy.m"; sourceTree = "<group>"; };
+		F92A8682EEA01B361EF09579C9B4DADB /* Pods-GroupButtons_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GroupButtons_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FE910EDC2AF74D9F05D6CF0AD5A4CA64 /* Pods_GroupButtons_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GroupButtons_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B9B37C2876796D75A2130C077EF6494 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7DA84222057A9393384ABB80B065D77 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		875A9CE4494E4018B3E558716A30B12C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB05436A9B012B774E75B669F0EE3EAA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90B56E820259A9C7E73F150BB751AC1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91D96E26433ED094B2D8DDD71CAAED4B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B45629BFD4AB65CAC4CFC0051B27D1D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9ADE041FFD46325DF78613321FDC93D5 /* Pods-GroupButtons_Example */,
+				5974E42E012CEE3B57BD7C70BEA99FED /* Pods-GroupButtons_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5974E42E012CEE3B57BD7C70BEA99FED /* Pods-GroupButtons_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B05D903E7A8A6B6A9E88311661F84BF8 /* Info.plist */,
+				203A9B82C47A752D7ADC54313ED74544 /* Pods-GroupButtons_Tests.modulemap */,
+				12F67D116558E6A22DC60BDDF7A4A681 /* Pods-GroupButtons_Tests-acknowledgements.markdown */,
+				F92A8682EEA01B361EF09579C9B4DADB /* Pods-GroupButtons_Tests-acknowledgements.plist */,
+				F024552DE75B531F276E19B735CEFBA2 /* Pods-GroupButtons_Tests-dummy.m */,
+				3F7B1C1FE7483B28DD202D538A07D6B4 /* Pods-GroupButtons_Tests-frameworks.sh */,
+				6B53CBAD3EC6B9B734F8C130A6BECAAF /* Pods-GroupButtons_Tests-resources.sh */,
+				05C3C19E53EEF8AF461C3872753DEBDD /* Pods-GroupButtons_Tests-umbrella.h */,
+				1C6ED8E8B17086157C30304F320072AA /* Pods-GroupButtons_Tests.debug.xcconfig */,
+				AB53FC612F5EA408381BB061B80A89E2 /* Pods-GroupButtons_Tests.release.xcconfig */,
+			);
+			name = "Pods-GroupButtons_Tests";
+			path = "Target Support Files/Pods-GroupButtons_Tests";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		782BDFBC165DF0AB89660FC3D6994663 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				16905D85FB16CC780BF3DFE49FD56763 /* GroupButtons.modulemap */,
+				2F8A97009D2A80EAD872A61A6676D2FD /* GroupButtons.xcconfig */,
+				AF0449C6ADBCBD144499F5A959A37B66 /* GroupButtons-dummy.m */,
+				AF65242A3DEC0C5239D891D9DBF442FF /* GroupButtons-prefix.pch */,
+				735AD176E88DB1DD2F79B8F326BF0215 /* GroupButtons-umbrella.h */,
+				A1AF970397B972ECC755B5B6D916E0CD /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GroupButtons";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				8CDBDA4DF1C2C3D0B35B7EE277A4E591 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C699C40D8B224F74257A205B81334CAE /* Products */,
+				4B45629BFD4AB65CAC4CFC0051B27D1D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		87959F06A22C332FD749E3DC6AB3A71C /* GroupButtons */ = {
+			isa = PBXGroup;
+			children = (
+				CC6A8F119B12A4C9460A7C7E77541B13 /* GroupButtons */,
+				782BDFBC165DF0AB89660FC3D6994663 /* Support Files */,
+			);
+			name = GroupButtons;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		8CDBDA4DF1C2C3D0B35B7EE277A4E591 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87959F06A22C332FD749E3DC6AB3A71C /* GroupButtons */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9ADE041FFD46325DF78613321FDC93D5 /* Pods-GroupButtons_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1079BF9F634F2CE895E54FB628D65837 /* Info.plist */,
+				5AFFDE32B72F7151FFF0339647CD247A /* Pods-GroupButtons_Example.modulemap */,
+				25C25B8D21A21E5637D33DBD1975C386 /* Pods-GroupButtons_Example-acknowledgements.markdown */,
+				CECC3944E7CC314ABEA44D2EF34AF7C3 /* Pods-GroupButtons_Example-acknowledgements.plist */,
+				F056580F578A015555BA9E849BEE0AB9 /* Pods-GroupButtons_Example-dummy.m */,
+				295151526E3520A3C55FF8AE331249B2 /* Pods-GroupButtons_Example-frameworks.sh */,
+				AFB668F7EF6E8195636E773F0B1ECFED /* Pods-GroupButtons_Example-resources.sh */,
+				2CB5705B9F5B1F02415DA033AE4896B4 /* Pods-GroupButtons_Example-umbrella.h */,
+				2B41497433179D452B244B6705819F4D /* Pods-GroupButtons_Example.debug.xcconfig */,
+				59B28523C47EF79B0A212DE5C1072AE1 /* Pods-GroupButtons_Example.release.xcconfig */,
+			);
+			name = "Pods-GroupButtons_Example";
+			path = "Target Support Files/Pods-GroupButtons_Example";
+			sourceTree = "<group>";
+		};
+		A2408E8AE4A16F4407CA14672DFDB08B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				65AD120239F70D97CF84D595EA99010C /* ReplaceMe.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C699C40D8B224F74257A205B81334CAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC3EA215A6A7D5CE9300AE7D8CB0F324 /* GroupButtons.framework */,
+				D9FBDB7E334455EEC99CFD74481A9D3F /* Pods_GroupButtons_Example.framework */,
+				FE910EDC2AF74D9F05D6CF0AD5A4CA64 /* Pods_GroupButtons_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC6A8F119B12A4C9460A7C7E77541B13 /* GroupButtons */ = {
+			isa = PBXGroup;
+			children = (
+				A2408E8AE4A16F4407CA14672DFDB08B /* Classes */,
+			);
+			path = GroupButtons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		32AFE259C85B808CDA978A4BDDB174C4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A5C131A3645B5DD51EC7D2C66857D96 /* Pods-GroupButtons_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CFA367D6D00DDBF93A0FDFC2E6362ED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5588C321DE8E49663C516B2079B7784 /* Pods-GroupButtons_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7EF3F94CE0D9C0B8CECCB71868D7F2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				239843E678324E00D703EC09CA4DD057 /* GroupButtons-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2FAED0D3A4228A573FE58271D84D3630 /* Pods-GroupButtons_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E48392B6B0309F68C02F05A7A8E1DDF /* Build configuration list for PBXNativeTarget "Pods-GroupButtons_Tests" */;
+			buildPhases = (
+				467AB3BCA8571BD787694D757F4D8B47 /* Sources */,
+				875A9CE4494E4018B3E558716A30B12C /* Frameworks */,
+				32AFE259C85B808CDA978A4BDDB174C4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GroupButtons_Tests";
+			productName = "Pods-GroupButtons_Tests";
+			productReference = FE910EDC2AF74D9F05D6CF0AD5A4CA64 /* Pods_GroupButtons_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		46A760617315B09ED52F399AF2DBDCDB /* GroupButtons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56DF307549EBCC9370B3BB37F8E8CF15 /* Build configuration list for PBXNativeTarget "GroupButtons" */;
+			buildPhases = (
+				B7634F1174B487045D30D9EE6C2028C6 /* Sources */,
+				90B56E820259A9C7E73F150BB751AC1B /* Frameworks */,
+				EF7EF3F94CE0D9C0B8CECCB71868D7F2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GroupButtons;
+			productName = GroupButtons;
+			productReference = CC3EA215A6A7D5CE9300AE7D8CB0F324 /* GroupButtons.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9E9864CAAC71C80C447CCF7629C448EF /* Pods-GroupButtons_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0485DB0F1131828C0B37981A605443E1 /* Build configuration list for PBXNativeTarget "Pods-GroupButtons_Example" */;
+			buildPhases = (
+				E04572FFDA20C5591DEF364A29BC48E2 /* Sources */,
+				6B9B37C2876796D75A2130C077EF6494 /* Frameworks */,
+				9CFA367D6D00DDBF93A0FDFC2E6362ED /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				704C51789DFB5FAE69302755F905BC9E /* PBXTargetDependency */,
+			);
+			name = "Pods-GroupButtons_Example";
+			productName = "Pods-GroupButtons_Example";
+			productReference = D9FBDB7E334455EEC99CFD74481A9D3F /* Pods_GroupButtons_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					46A760617315B09ED52F399AF2DBDCDB = {
+						LastSwiftMigration = 0810;
+					};
+					9E9864CAAC71C80C447CCF7629C448EF = {
+						LastSwiftMigration = 0810;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C699C40D8B224F74257A205B81334CAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46A760617315B09ED52F399AF2DBDCDB /* GroupButtons */,
+				9E9864CAAC71C80C447CCF7629C448EF /* Pods-GroupButtons_Example */,
+				2FAED0D3A4228A573FE58271D84D3630 /* Pods-GroupButtons_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		467AB3BCA8571BD787694D757F4D8B47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55018E74015B8FA2E0DC2A90D9737F2F /* Pods-GroupButtons_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7634F1174B487045D30D9EE6C2028C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97967C9FEC59BB3689834DF37C460495 /* GroupButtons-dummy.m in Sources */,
+				D79A21EE8426269F224526032991EFBE /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E04572FFDA20C5591DEF364A29BC48E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				832B00144CC445FC487493B3C504A652 /* Pods-GroupButtons_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		704C51789DFB5FAE69302755F905BC9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GroupButtons;
+			target = 46A760617315B09ED52F399AF2DBDCDB /* GroupButtons */;
+			targetProxy = DC9B59DA1FB5D7AC822F795C2628A174 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3AFFC692B1F55C69E200B19DA2BBBD90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB53FC612F5EA408381BB061B80A89E2 /* Pods-GroupButtons_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GroupButtons_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GroupButtons_Tests/Pods-GroupButtons_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GroupButtons_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		417F5E743B7097AAA265B0C18087A577 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59B28523C47EF79B0A212DE5C1072AE1 /* Pods-GroupButtons_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GroupButtons_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GroupButtons_Example/Pods-GroupButtons_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GroupButtons_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		520E2AB0F03E6960FF122F47A0F68DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C6ED8E8B17086157C30304F320072AA /* Pods-GroupButtons_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GroupButtons_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GroupButtons_Tests/Pods-GroupButtons_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GroupButtons_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AC67DDC7355FB119B6A63D27744F7141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F8A97009D2A80EAD872A61A6676D2FD /* GroupButtons.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GroupButtons/GroupButtons-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GroupButtons/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GroupButtons/GroupButtons.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GroupButtons;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BECDE895021E2D8E5D3E6F8B979CBB6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B41497433179D452B244B6705819F4D /* Pods-GroupButtons_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GroupButtons_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GroupButtons_Example/Pods-GroupButtons_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GroupButtons_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E7F7E5DD5069956BB9A826D087EEBDB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F8A97009D2A80EAD872A61A6676D2FD /* GroupButtons.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GroupButtons/GroupButtons-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GroupButtons/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GroupButtons/GroupButtons.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GroupButtons;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0485DB0F1131828C0B37981A605443E1 /* Build configuration list for PBXNativeTarget "Pods-GroupButtons_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BECDE895021E2D8E5D3E6F8B979CBB6E /* Debug */,
+				417F5E743B7097AAA265B0C18087A577 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E48392B6B0309F68C02F05A7A8E1DDF /* Build configuration list for PBXNativeTarget "Pods-GroupButtons_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520E2AB0F03E6960FF122F47A0F68DF5 /* Debug */,
+				3AFFC692B1F55C69E200B19DA2BBBD90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56DF307549EBCC9370B3BB37F8E8CF15 /* Build configuration list for PBXNativeTarget "GroupButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC67DDC7355FB119B6A63D27744F7141 /* Debug */,
+				E7F7E5DD5069956BB9A826D087EEBDB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
