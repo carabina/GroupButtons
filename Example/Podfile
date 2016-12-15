@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GroupButtons_Example' do
+  pod 'GroupButtons', :path => '../'
+
+  target 'GroupButtons_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
